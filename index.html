@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Pin Pad App</title>
+</head>
+
+<body>
+    <main class="main">
+        <div class="main__inputDiv">
+            <input class="main__inputDiv--input" id="input" onkeydown="preventKeyboardInput(event)" />
+        </div>
+        <div class="main__buttons">
+            <button class="main__buttons--button" id="one">1</button>
+            <button class="main__buttons--button" id="two">2</button>
+            <button class="main__buttons--button" id="three">3</button>
+            <button class="main__buttons--button" id="four">4</button>
+            <button class="main__buttons--button" id="five">5</button>
+            <button class="main__buttons--button" id="six">6</button>
+            <button class="main__buttons--button" id="seven">7</button>
+            <button class="main__buttons--button" id="eight">8</button>
+            <button class="main__buttons--button" id="nine">9</button>
+            <button class="main__buttons--button" id="delete"><i class="fa-solid fa-delete-left"></i></button>
+            <button class="main__buttons--button" id="zero">0</button>
+            <button class="main__buttons--button" id="check"><i class="fa-solid fa-check"></i></button>
+        </div>
+    </main>
+    <script src="https://kit.fontawesome.com/1f1fac6327.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
