@@ -13,12 +13,19 @@
   background-color: burlywood;
 }
 .main .main__inputDiv .main__inputDiv--input {
+  box-sizing: border-box;
   height: 60px;
   width: 200px;
   margin-top: 20px;
   margin-bottom: 10px;
+  padding-top: 12px;
+  padding-left: 15px;
   border-radius: 10px;
   border: none;
+  text-align: center;
+  font-size: 28px;
+  letter-spacing: 15px;
+  caret-color: transparent;
 }
 .main .main__buttons {
   height: 80%;
