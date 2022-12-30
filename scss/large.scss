@@ -1,0 +1,38 @@
+@media screen and (min-width: 768px) {
+  .main {
+    height: 90vh;
+
+    .main__inputDiv {
+      .main__inputDiv--input {
+        box-sizing: border-box;
+        height: 80px;
+        width: 300px;
+        padding-top: 22px;
+        font-size: 48px;
+        letter-spacing: 25px;
+        caret-color: transparent;
+      }
+    }
+    .main__buttons {
+      height: 80%;
+      width: 100%;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(4, 1fr);
+      align-items: center;
+      justify-items: center;
+      .main__buttons--button {
+        width: 90px;
+        height: 90px;
+        border-radius: 50%;
+        border: none;
+        font-size: 32px;
+        font-weight: 600;
+        background-color: grayscale($color: #0000005a);
+        &:active {
+          background-color: grayscale($color: #0a090990);
+        }
+      }
+    }
+  }
+}
