@@ -10,6 +10,7 @@
   justify-content: space-evenly;
   height: 100vh;
   width: 100vw;
+  min-height: 480px;
   background-color: burlywood;
 }
 .main .main__inputDiv .main__inputDiv--input {
