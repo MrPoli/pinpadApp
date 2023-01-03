@@ -3,50 +3,55 @@
   padding: 0;
 }
 
-.main {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-evenly;
+body {
   height: 100vh;
   width: 100vw;
-  min-height: 480px;
-  background-color: burlywood;
-  .main__inputDiv {
-    .main__inputDiv--input {
-      box-sizing: border-box;
-      height: 60px;
-      width: 200px;
-      margin-top: 20px;
-      margin-bottom: 10px;
-      padding-top: 12px;
-      padding-left: 15px;
-      border-radius: 10px;
-      border: none;
-      text-align: center;
-      font-size: 28px;
-      letter-spacing: 15px;
-      caret-color: transparent;
-    }
-  }
-  .main__buttons {
-    height: 80%;
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(4, 1fr);
+  min-width: 100vw;
+  .main {
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-items: center;
-    .main__buttons--button {
-      width: 90px;
-      height: 90px;
-      border-radius: 50%;
-      border: none;
-      font-size: 32px;
-      font-weight: 600;
-      background-color: grayscale($color: #0000005a);
-      &:active {
-        background-color: grayscale($color: #0a090990);
+    justify-content: space-evenly;
+    height: 100vh;
+    width: 100vw;
+    min-height: 480px;
+    background-color: burlywood;
+    .main__inputDiv {
+      .main__inputDiv--input {
+        box-sizing: border-box;
+        height: 60px;
+        width: 200px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        padding-top: 12px;
+        padding-left: 15px;
+        border-radius: 10px;
+        border: none;
+        text-align: center;
+        font-size: 28px;
+        letter-spacing: 15px;
+        caret-color: transparent;
+      }
+    }
+    .main__buttons {
+      height: 80%;
+      width: 100%;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(4, 1fr);
+      align-items: center;
+      justify-items: center;
+      .main__buttons--button {
+        width: 90px;
+        height: 90px;
+        border-radius: 50%;
+        border: none;
+        font-size: 32px;
+        font-weight: 600;
+        background-color: grayscale($color: #0000005a);
+        &:active {
+          background-color: grayscale($color: #0a090990);
+        }
       }
     }
   }

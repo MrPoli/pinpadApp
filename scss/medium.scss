@@ -1,13 +1,14 @@
 @media screen and (min-width: 577px) {
   body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: rgba(219, 181, 132, 0.38);
+    min-height: 480px;
     .main {
-      margin: 0 auto;
       width: 70vw;
       border-left: 5px solid rgba(0, 0, 0, 0.397);
       border-right: 5px solid rgba(0, 0, 0, 0.397);
-      // border-top: 0;
-      // border-bottom: 0;
     }
   }
 }

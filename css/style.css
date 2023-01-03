@@ -3,7 +3,12 @@
   padding: 0;
 }
 
-.main {
+body {
+  height: 100vh;
+  width: 100vw;
+  min-width: 100vw;
+}
+body .main {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -13,7 +18,7 @@
   min-height: 480px;
   background-color: burlywood;
 }
-.main .main__inputDiv .main__inputDiv--input {
+body .main .main__inputDiv .main__inputDiv--input {
   box-sizing: border-box;
   height: 60px;
   width: 200px;
@@ -28,7 +33,7 @@
   letter-spacing: 15px;
   caret-color: transparent;
 }
-.main .main__buttons {
+body .main .main__buttons {
   height: 80%;
   width: 100%;
   display: grid;
@@ -37,7 +42,7 @@
   align-items: center;
   justify-items: center;
 }
-.main .main__buttons .main__buttons--button {
+body .main .main__buttons .main__buttons--button {
   width: 90px;
   height: 90px;
   border-radius: 50%;
@@ -46,6 +51,6 @@
   font-weight: 600;
   background-color: rgba(0, 0, 0, 0.3529411765);
 }
-.main .main__buttons .main__buttons--button:active {
+body .main .main__buttons .main__buttons--button:active {
   background-color: rgba(10, 10, 10, 0.5647058824);
 }/*# sourceMappingURL=style.css.map */

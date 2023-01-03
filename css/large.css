@@ -1,19 +1,23 @@
 @media screen and (min-width: 768px) {
-  .main {
-    height: 90vh;
+  body {
+    min-height: 720px;
+  }
+  body .main {
+    height: 85vh;
+    min-height: 620px;
     border-top: 5px solid rgba(0, 0, 0, 0.397);
     border-bottom: 5px solid rgba(0, 0, 0, 0.397);
   }
-  .main .main__inputDiv .main__inputDiv--input {
+  body .main .main__inputDiv .main__inputDiv--input {
     box-sizing: border-box;
-    height: 80px;
-    width: 300px;
+    height: 70px;
+    width: 280px;
     padding-top: 22px;
     font-size: 48px;
     letter-spacing: 25px;
     caret-color: transparent;
   }
-  .main .main__buttons {
+  body .main .main__buttons {
     height: 80%;
     width: 100%;
     display: grid;
@@ -22,16 +26,16 @@
     align-items: center;
     justify-items: center;
   }
-  .main .main__buttons .main__buttons--button {
-    width: 90px;
-    height: 90px;
+  body .main .main__buttons .main__buttons--button {
+    width: 120px;
+    height: 120px;
     border-radius: 50%;
     border: none;
     font-size: 32px;
     font-weight: 600;
     background-color: rgba(0, 0, 0, 0.3529411765);
   }
-  .main .main__buttons .main__buttons--button:active {
+  body .main .main__buttons .main__buttons--button:active {
     background-color: rgba(10, 10, 10, 0.5647058824);
   }
 }/*# sourceMappingURL=large.css.map */
